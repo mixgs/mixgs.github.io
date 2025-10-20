@@ -1,0 +1,97 @@
+body {
+    background-color: white;
+    color: black;
+}
+
+header {
+  position: relative;
+  height: 350px;
+  width: 100%;
+  overflow: hidden;
+}
+
+header video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+/*.header-video {*/
+/*  position: relative;*/
+/*  width: 100%; !* 宽度占满父元素 *!*/
+/*  overflow: hidden; !* 隐藏超出容器的视频部分 *!*/
+/*  padding-top: 88.89%; !* 核心：960/1080×100% ≈ 88.89%，匹配视频比例 *!*/
+/*}*/
+
+/*!* 视频元素：填充容器并消除黑边 *!*/
+/*.fit-video {*/
+/*  position: absolute;*/
+/*  top: 0;*/
+/*  left: 0;*/
+/*  width: 100%;*/
+/*  height: 100%;*/
+/*  object-fit: cover; !* 按比例放大视频填满容器，裁剪边缘（无变形） *!*/
+/*}*/
+
+
+h1 {
+  color: black;
+}
+
+a {
+  color: #ff7300;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #faa97e;
+
+}
+
+hr {
+  color: #ff7300;
+  opacity:100;
+}
+
+.carousel-indicators {
+  top:50px;
+  color: white;
+}
+
+.carousel-caption {
+  top:0px;
+  color: white;
+}
+
+b {
+  color: black;
+}
+
+li {
+  /* color: lightgray; */
+  color: black;
+}
+
+.carousel-indicators [data-bs-target] {
+  background-color: black;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+  color: black;
+  background-color: rgba(71, 63, 63, 0.5);
+}
+
+.b-dics__slider {
+  color: #f0f0f0;
+}
+.b-dics__slider:after {
+  width: 2px;
+}
